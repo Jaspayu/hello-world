@@ -1,0 +1,109 @@
+body{
+    background: #e5e5e5;
+    margin: 0px;
+}
+.container{
+    width: 780px;
+    background:#c9ddff;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px 5px;
+    
+}
+.page-heading{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.header{
+    padding: 45px 0 20px 40px;
+    border: 2px solid black;
+        
+}
+.menu{
+    background:#7dd2d9;
+    padding: 6px 10px =-6px 40px;  
+}
+.menu a{
+    color:crimson dimgray;
+    text-decoration:none;
+    font-size: 20px;
+    font-style:italic;
+   font-family: monospace; /* i can also search it on google*/
+}
+.menu a:hover{
+    
+    color: beige;
+    font-family: cursive;
+    
+}
+aside{
+    float: left;
+    color:crimson;
+    margin:10px 20px 20px 20px;
+    font-size: 20px;
+    font-family: "georgia";
+}
+.main{
+    margin: 0 0 0 180px;
+    padding: 0 30px 40px 0;
+    font-family: "georgia";
+    color: darkmagenta;      
+}
+footer{
+    padding: 6px 40px 6px 40px;
+    background: #d6d6d6;
+    font-family: "Lucida Sans Unicode";
+    color: #444444;
+    font-size: 15px;
+    text-decoration:none; 
+}
+footer a{
+    text-decoration:none;
+    color: brown;
+}
+.seprator{
+  
+    font-weight: bold;
+    color: blue;      
+}
+.link-title{
+    text-decoration: none;
+}
+
+/************about page********************/
+#profile-img{
+    width:70%
+    float:right; 
+    margin:  10px 10px 10px 10px;
+}
+#description{
+    clear: both;
+    float: right;
+    
+}
+/*********************contact page********************/
+
+#contact #form{
+    
+    width: 565px;
+    border: 2px solid black;
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    box-shadow: 5px 10px 13px 1px;
+}
+#contact #form input{
+    
+        width: 100%;
+    border-radius: 4px;
+    height: 20px;
+    background: #d6d6d6;
+}
+#contact #form #message{
+    width: 100%;
+    border-radius: 4px;
+    background: #d6d6d6;
+}
+#contact #form #submit{
+        height: 30px;
+    background: #49c2d4;
+}
+
